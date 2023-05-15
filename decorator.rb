@@ -12,7 +12,6 @@ class Decorator < Nameable
 end
 
 class CapitalizeDecorator < Decorator
-
   def initialize(nameable)
     super(nameable)
     @nameable = nameable
