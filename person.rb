@@ -5,6 +5,7 @@ class Person < Nameable
   attr_reader :id
 
   def initialize(age, name: 'Unknown', parent_permission: true)
+    super()
     @id = 0
     @name = name
     @age = age
@@ -30,4 +31,3 @@ end
 # p = Person.new(13, name: 'Joan', parent_permission: false)
 # puts p.can_use_services? # false
 # puts p.correct_name
-
