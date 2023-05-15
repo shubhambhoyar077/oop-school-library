@@ -1,8 +1,3 @@
-# Create class Student with the following:
-
-#     Inherits from Person.
-#     Constructor extends parent's constructor by adding @classroom and a parameter for it.
-#     Method play_hooky that returns "¯\(ツ)/¯".
 require_relative 'person'
 
 class Student < Person
@@ -12,6 +7,6 @@ class Student < Person
   end
 
   def play_hooky
-    "¯\(ツ)/¯"
+    '¯(ツ)/¯'
   end
 end
