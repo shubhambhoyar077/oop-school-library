@@ -23,10 +23,3 @@ class Person
     false
   end
 end
-
-# Ex:-
-p = Person.new(13, name: 'Joan', parent_permission: false)
-puts p.can_use_services? # false
-
-p2 = Person.new(18, parent_permission: false)
-puts p2.can_use_services? # true
