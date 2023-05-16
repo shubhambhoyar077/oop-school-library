@@ -17,8 +17,3 @@ class Student < Person
     end
   end
 end
-
-# Ex:-
-# s = Student.new(13, "B12", parent_permission: false)
-# puts s.can_use_services?
-# puts s.play_hooky
