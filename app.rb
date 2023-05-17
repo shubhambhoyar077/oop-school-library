@@ -10,7 +10,7 @@ class App
   end
 
   def list_all_books
-    @books.each {|book| puts "Name:- #{book.title}   Author:- #{book.author} \n"}
+    @books.each {|book| puts "Title:- #{book.title}   Author:- #{book.author} \n"}
   end
 
   def list_all_peoples
